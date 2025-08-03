@@ -1,0 +1,22 @@
+# Имя исполняемого файла
+TARGET = stats
+
+# Исходные файлы C++
+SOURCES = Stats/Stats/main.cpp
+
+# Компилятор
+CXX = g++
+
+# Флаги компилятора
+CXXFLAGS = -std=c++17 -Wall -Wextra
+
+# Правило по умолчанию, которое собирает программу
+all: $(TARGET)
+
+# Правило для компиляции исполняемого файла
+$(TARGET): $(SOURCES)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SOURCES)
+
+# Правило для очистки скомпилированных файлов
+clean:
+	rm -f $(TARGET)
