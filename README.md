@@ -1,7 +1,5 @@
 # System Stats Monitor
 
-[![Build Status](https://github.com/yourusername/SystemStats/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/SystemStats/actions)
-
 Advanced system monitoring tool for Linux with process management.
 
 ## Features
