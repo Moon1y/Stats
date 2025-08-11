@@ -3,9 +3,11 @@
 Advanced system monitoring tool for Linux with process management.
 
 ##Wiki
+
 [[Wiki]](https://github.com/Moon1y/Stats/wiki)
 
 ##Policy
+
 [[Security]](https://github.com/Moon1y/Stats/blob/master/SECURITY.md)
 
 ## Features
