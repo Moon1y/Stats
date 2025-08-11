@@ -1,18 +1,21 @@
-# System Stats Tool Usage
+# The MIT License (MIT)
 
-## Commands Overview
+Copyright (c) <2025> Nik M
 
-| Command     | Description                  | Example                |
-|-------------|------------------------------|------------------------|
-| `system`    | Show system information      | `Stats.out system`     |
-| `cpu`       | Show CPU information         | `Stats.out cpu`        |
-| `memory`    | Show memory information      | `Stats.out memory`     |
-| `processes` | List running processes       | `Stats.out processes`  |
-| `kill PID`  | Terminate a process          | `sudo Stats.out kill 1234` |
-| `help`      | Show help information        | `Stats.out help`       |
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## Key Features
-- Color-coded output for better readability
-- Protection against killing critical system processes
-- Detailed process information
-- Human-readable memory and time formatting
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
